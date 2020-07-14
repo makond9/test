@@ -1,346 +1,839 @@
-<!doctype html>
-<!--
-	Author by FreeHTML5.co
-	Twitter: https://twitter.com/fh5co
-	Facebook: https://fb.com/fh5co
-	URL: https://freehtml5.co
--->
-<html lang="en">
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<title>Author</title>
+	<img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=604421766865636&ev=PageView&noscript=1"
+  />
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kreo</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.min.css">
+   <link rel="stylesheet" href="css/main.css">     
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
 
-	<!-- Navigation -->
-	<nav class="site-navigation">
-		<div class="site-navigation-inner site-container">
-			<img src="./images/site-logo.png" alt="site logo">
-			<div class="main-navigation">
-				<ul class="main-navigation__ul">
-					<li><a href="#">Homepage</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
-					<li><a href="#">Page 4</a></li>
-				</ul>
-			</div>
-			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-			<script>
-				function myFunction(x) {
-					x.classList.toggle("change");
-				}
-			</script>
+	<!-- header
+   ================================================== -->
+   <header id="main-header">
 
-		</div>
-	</nav>
-	<!-- Navigation end -->
+   	<div class="row">
 
-	<!-- Top banner -->
-	<section class="fh5co-top-banner">
-		<div class="top-banner__inner site-container">
-			<div class="top-banner__image">
-				<img src="./images/top-banner-author.jpg" alt="author image">
-			</div>
-			<div class="top-banner__text">
-				<div class="top-banner__text-up">
-					<span class="brand-span">Hello! I'm</span>
-					<h2 class="top-banner__h2">Jhone</h2>
-				</div>
-				<div class="top-banner__text-down">
-					<h2 class="top-banner__h2">Smith</h2>
-					<span class="brand-span">Author, Writer, Traveler</span>
-				</div>
-				<p>One Man. One Mission. Can He Go Beyond?One Man. One Mission. Can He Go Beyond?</p>
-				<a href="#" class="brand-button">Read bio > </a>
-			</div>
-		</div>
-	</section>
-	<!-- Top banner end -->
+	      <div class="logo">
+	         <a href="index.html">Kreo</a>
+	      </div>
 
-	<!-- About me -->
-	<section class="fh5co-about-me">
-		<div class="about-me-inner site-container">
-			<article class="portfolio-wrapper">
-				<div class="portfolio__img">
-					<img src="./images/about-me.jpg" class="about-me__profile" alt="about me profile picture">
-				</div>
-				<div class="portfolio__bottom">
-					<div class="portfolio__name">
-						<span>J</span>
-						<h2 class="universal-h2">hone Smith</h2>
-					</div>
-					<p>Jhone Smith is a short story author, novelist, and award-winning poet.</p>
-				</div>
-			</article>
-			<div class="about-me__text">
-				<div class="about-me-slider">
-					<div class="about-me-single-slide">
-						<h2 class="universal-h2 universal-h2-bckg">About me</h2>
-						<p><span>H</span> e has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and the British Fantasy Society journal Dark Horizons. He is also CEO of a company, specializing in custom book publishing and social media marketing services, have created a community for authors to learn and connect.He has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and have created a community for authors to learn and connect.</p>
-						<h4>Author</h4>
-						<p class="p-white">See me</p>
-					</div>
-					<div class="about-me-single-slide">
-						<h2 class="universal-h2 universal-h2-bckg">About me 2</h2>
-						<p><span>H</span> e has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and the British Fantasy Society journal Dark Horizons. He is also CEO of a company, specializing in custom book publishing and social media marketing services, have created a community for authors to learn and connect.He has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and have created a community for authors to learn and connect.</p>
-						<h4>Author</h4>
-						<p class="p-white">See me</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="about-me-bckg"></div>
-	</section>
-	<!-- About me end -->
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class="menu-icon">Menu</span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class="menu-icon">Menu</span>
+         	</a>            
 
-	<!-- Books and CD -->
-	<section class="fh5co-books">
-		<div class="site-container">
-			<h2 class="universal-h2 universal-h2-bckg">New Books And CD</h2>
-			<div class="books">
-				<div class="single-book">
-					<a href="#" class="single-book__img">
-						<img src="./images/books-1.jpg" alt="single book and cd">
-						<div class="single-book_download">
-							<img src="./images/download.svg" alt="book image">
-						</div>
-					</a>
-					<h4 class="single-book__title">Olivani</h4>
-					<span class="single-book__price">$15.00</span>
-					<!-- star rating -->
-					<div class="rating">
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-					</div>
-					<!-- star rating end -->
-				</div>
-				<div class="single-book">
-					<a href="#" class="single-book__img">
-						<img src="./images/books-2.jpg" alt="single book and cd">
-						<div class="single-book_download">
-							<img src="./images/download.svg" alt="book image">
-						</div>
-					</a>
-					<h4 class="single-book__title">Molleon’s Life</h4>
-					<span class="single-book__price">$22.00</span>
-					<!-- star rating -->
-					<div class="rating">
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-						<span>&#9734;</span>
-					</div>
-					<!-- star rating end -->
-				</div>
-				<div class="single-book">
-					<a href="#" class="single-book__img">
-						<img src="./images/books-3.jpg" alt="single book and cd">
-						<div class="single-book_download">
-							<img src="./images/download.svg" alt="book image">
-						</div>
-					</a>
-					<h4 class="single-book__title">Love is Love</h4>
-					<span class="single-book__price">$25.00</span>
-				</div>
-				<div class="single-book">
-					<a href="#" class="single-book__img">
-						<img src="./images/books-4.jpg" alt="single book and cd">
-						<div class="single-book_download">
-							<img src="./images/download.svg" alt="book image">
-						</div>
-					</a>
-					<h4 class="single-book__title">Give Me Also</h4>
-					<span class="single-book__price">$30.00</span>
-				</div>
-			</div>
-			<div class="books-brand-button">
-				<a href="#" class="brand-button">View more</a>
-			</div>
-		</div>
-	</section>
-	<!-- Books and CD end -->
+	         <ul id="nav" class="nav">
+	            <li><a class="smoothscroll" href="#hero">Home.</a></li>
+		         <li class="current"><a class="smoothscroll" href="#portfolio">About.</a></li>
+	            <li><a class="smoothscroll" href="#services">Services.</a></li>
+	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
+	         </ul> <!-- end #nav -->
 
-	<!-- Counter -->
-	<div class="fh5co-counter counters">
-		<div class="counter-inner site-container">
-			<div class="single-count">
-				<span class="count" data-count="50">0</span>
-				<div class="single-count__text">
-					<img src="./images/counter-1.png" alt="counter icon">
-					<p>Books</p>
-				</div>
-			</div>
-			<div class="single-count">
-				<span class="count" data-count="600">0</span>
-				<div class="single-count__text">
-					<img src="./images/counter-2.png" alt="counter icon">
-					<p>Pages</p>
-				</div>
-			</div>
-			<div class="single-count">
-				<span class="count" data-count="2000">0</span>
-				<div class="single-count__text">
-					<img src="./images/counter-3.png" alt="counter icon">
-					<p>Sales</p>
-				</div>
-			</div>
-			<div class="single-count">
-				<span class="count" data-count="125">0</span>
-				<div class="single-count__text">
-					<img src="./images/counter-4.png" alt="counter icon">
-					<p>Awards</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Counter -->
+	      </nav> <!-- end #nav-wrap -->
 
-	<!-- Blog -->
-	<section class="fh5co-blog">
-		<div class="site-container">
-			<h2 class="universal-h2 universal-h2-bckg">My Blog</h2>
-			<div class="blog-slider blog-inner">
-				<div class="single-blog">
-					<div class="single-blog__img">
-						<img src="./images/blog1.jpg" alt="blog image">
-					</div>
-					<div class="single-blog__text">
-						<h4>The Journey Under the Waves</h4>
-						<span>On August 28, 2015</span>
-						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
-					</div>
-				</div>
-				<div class="single-blog">
-					<div class="single-blog__img">
-						<img src="./images/blog2.jpg" alt="blog image">
-					</div>
-					<div class="single-blog__text">
-						<h4>The Journey Under the Waves</h4>
-						<span>On August 28, 2015</span>
-						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
-					</div>
-				</div>
-				<div class="single-blog">
-					<div class="single-blog__img">
-						<img src="./images/blog2.jpg" alt="blog image">
-					</div>
-					<div class="single-blog__text">
-						<h4>The Journey Under the Waves</h4>
-						<span>On August 28, 2015</span>
-						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Blog end -->
+	      <ul class="header-social">
+	        	<li><a href="https://www.facebook.com/Kreo03/"><i class="fa fa-facebook"></i></a></li>
+	      </ul>      
 
-	<!-- Quotes -->
-	<section class="fh5co-quotes">
-		<div class="site-container">
-			<div class="about-me-slider">
-				<div>
-					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying</h2>
-					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
-					<img src="./images/quotes.svg" alt="quotes svg">
-					<h4>David Dixon</h4>
-					<p>Reader</p>
-				</div>
-				<div>
-					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying 2</h2>
-					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
-					<img src="./images/quotes.svg" alt="quotes svg">
-					<h4>David Dixon</h4>
-					<p>Reader</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Quotes end -->
+	   </div>
 
-	<!-- Social -->
-	<section class="fh5co-social">
-		<div class="site-container">
-			<div class="social">
-				<h5>Follow me!!</h5>
-				<div class="social-icons">
-					<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-					<a href="#" target="_blank"><img src="./images/social-pinterest.png" alt="social icon"></a>
-					<a href="#" target="_blank"><img src="./images/social-youtube.png" alt="social icon"></a>
-					<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-				</div>
-				<h5>Share it!</h5>
-			</div>
-		</div>
-	</section>
-	<!-- Social -->
+   </header> <!-- end header -->
 
-	<!-- Footer -->
-	<footer class="site-footer">
-		<div class="site-container">
-			<div class="footer-inner">
-				<div class="footer-info">
-					<div class="footer-info__left">
-						<img src="./images/footer-img.jpg" alt="about me image">
-						<p>Read more about me</p>
-					</div>
-					<div class="footer-info__right">
-						<h5>Get In Touch</h5>
-						<p class="footer-phone">Phone: +958734902847</p>
-						<p>Email : Jhone@Example.com</p>
-						<div class="social-icons">
-							<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-							<a href="#" target="_blank"><img src="./images/social-pinterest.png" alt="social icon"></a>
-							<a href="#" target="_blank"><img src="./images/social-youtube.png" alt="social icon"></a>
-							<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-						</div>
-					</div>
-				</div>
-				<div class="footer-contact-form">
-					<h5>Contact Form</h5>
-					<form class="contact-form">
-						<div class="contact-form__input">
-							<input type="text" name="name" placeholder="Name">
-							<input type="email" name="email" placeholder="Email">
-						</div>
-						<textarea></textarea>
-						<input type="submit" name="submit" value="Submit" class="submit-button">
-					</form>
-				</div>
-			</div>
-		</div>
-		<div class="footer-bottom">
-			<div class="site-container footer-bottom-inner">
-				<p>© 2019 Author | Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> | All rights Reserved.</p>
-				<div class="footer-bottom__img">
-					<img src="./images/footer-mastercard.png" alt="footer image">
-					<img src="./images/footer-paypal.png" alt="footer image">
-					<img src="./images/footer-visa.png" alt="footer image">
-					<img src="./images/footer-fedex.png" alt="footer image">
-					<img src="./images/footer-dhl.png" alt="footer image">
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer end -->
 
-	<!-- Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/main.js"></script>
+   <!-- homepage hero
+   ================================================== -->
+   <section id="hero">	
+   	  
+		<div class="row hero-content">
+
+			<div class="twelve columns hero-container">
+
+			   <!-- hero-slider start-->
+			   <div id="hero-slider" class="flexslider">
+
+				   <ul class="slides">
+
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Join our <span>Learning space</span>. We help individual to get stronger.
+								</h1>	
+									
+								<h3 class="">Join our free online training to get to know us better</h3>				   
+							</div>						
+					   </li>
+
+					   <!-- slide -->
+					   <li>						
+							<div class="flex-caption">
+								<h1 class="">
+									How to dynamically develop
+									
+									business through the use of online products</h1>
+
+								<h3 class="">Internet Training is an online conference about what you need to know to successfully do business in the current economic climate thanks to the possibilities of the Internet and online products!</h3>			   
+							</div>					
+					   </li>
+
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">See the the work of <a class="smoothscroll" href="#portfolio" title="portfolio" >our students</a> or 
+								<a class="smoothscroll" href="#contact" title="contact us">get in touch</a> to discuss how we can help you.</h1>
+
+								<h3 class="">Internet Training is an online conference about what you need to know to successfully do business in the current economic climate thanks to the possibilities of the Internet and online products!</h3>			   
+							</div>
+					   </li>					              
+
+				   </ul>
+
+			   </div> <!-- end hero-slider -->				   
+
+	      </div> <!-- end twelve columns-->
+
+		</div> <!-- end row -->	
+
+		<div id="more">
+		      <a class="smoothscroll" href="#services">More About Us<i class="fa fa-angle-down"></i></a>
+		</div> 	
+
+   </section> <!-- end homepage hero -->
+
+
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>What event is this?<span>.</span></h1>
+
+	         <hr />               
+
+	         <p>Internet Training is an online conference about what you need to know to successfully do business in the current economic climate thanks to the possibilities of the Internet and online products!
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row items">
+
+         <!-- portfolio-wrapper -->
+         <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-01">
+	                  <img src="images/portfolio/underwater.jpg" alt="Underwater">
+                     <div class="overlay"></div>                       
+                     <div class="portfolio-item-meta">
+     					      <h5>Skills</h5>
+                        <p>This is the first time such knowledge is available free of charge, passed by practitioners for implementation immediately.</p>
+     					   </div> 
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+        		</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-02">
+                     <img src="images/portfolio/hotel.jpg" alt="Hotel Sign">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Speakers</h5>
+                           <p>Practitioners with many years of experience developing their companies thanks to the possibilities of online products.</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-03">
+                     <img src="images/portfolio/beetle.jpg" alt="Beetle">                        
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>On-line</h5>
+                           <p>Everything available from your computer, without leaving your home.</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-04">
+                     <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Production</h5>
+                           <p>How to create and record the first online course, which will start earning you from the first month.</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-05">
+                   <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Personal brand strategy</h5>
+                           <p>What fundamental advantages does personal branding bring?</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-06">
+                     <img src="images/portfolio/girl.jpg" alt="Girl Stuff">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Copywriting</h5>
+                           <p>How to write content that helps reach your customers and convince you to buy.</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-07">                        
+                     <img src="images/portfolio/coffee.jpg" alt="Coffee Cup">                       
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Case Study</h5>
+                           <p>A case study of a dance school, or "How I transferred a stationary business to the internet".</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-08">
+                     <img src="images/portfolio/judah.jpg" alt="Judah">
+                     <div class="overlay">
+                      	<div class="portfolio-item-meta">
+        					      <h5>Projects</h5>
+                           <p>How to plan a product so that it gives real and measurable results in the shortest possible time.
+
+						</p>
+        					   </div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>                     
+                  </a>
+               </div>
+       		</div>  <!-- item end -->
+
+         </div> <!-- end portfolio-wrapper -->
+         
+
+         <!-- modal popup
+	   	========================================================= -->
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Skills</h4>
+			      <p>This is the first time such knowledge is available free of charge, passed by practitioners for implementation immediately.</p>
+               <span class="categories">Learning space</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a href="#" class="popup-modal-dismiss">Close</a>         
+            </div>
+
+	      </div><!-- modal-01 end -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-hotel.jpg" alt="Hotel Sign" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Speakers</h4>
+			      <p>Practitioners with many years of experience developing their companies thanks to the possibilities of online products.</p>
+               <span class="categories">Learning space</span>
+		      </div>
+
+            <div class="link-box">            	
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 end -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>On-line</h4>
+			      <p>Everything available from your computer, without leaving your home.</p>
+               <span class="categories">Learning space</span>
+		      </div>
+
+            <div class="link-box">
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 end -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-banjo-player.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Production</h4>
+			      <p>How to create and record the first online course, which will start earning you from the first month.</p>
+               <span class="categories">Learning space</span>
+		      </div>
+
+            <div class="link-box">
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 end -->
+
+	      <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+	      	<div class="media">
+	      		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+	      	</div>      	
+
+		      <div class="description-box">
+			      <h4>Personal brand</h4>		      
+
+			      <p>How to design and build a personal branding and what fundamental advantages does it bring?</p>
+
+			      <div class="categories">Learning space</div>
+               
+		      </div>
+
+            <div class="link-box">
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>		      
+
+	      </div><!-- modal-05 end -->
+
+	      <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-girl.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Copywriting</h4>			      
+
+			      <p>How to write content that helps reach your customers and convince you to buy.</p>
+
+			      <div class="categories">Learning space</div>
+               
+		      </div>
+
+            <div class="link-box">
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 end -->
+
+	      <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-coffee.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Case study</h4>			      
+
+			      <p>A case study of a dance school, or "How I transferred a stationary business to the internet".</p>
+
+			      <div class="categories">Learning space</div>
+               
+		      </div>
+
+            <div class="link-box">
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 end -->
+
+	      <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-judah.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Projects</h4>			      
+
+			      <p>How to plan a product so that it gives real and measurable results in the shortest possible time.</p>
+
+			      <div class="categories">Learning space</div>
+               
+		      </div>
+
+            <div class="link-box">
+              
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 end -->
+
+      </div>  <!-- end row -->
+
+   </section> <!-- end portfolio -->
+
+
+   <!-- Services Section
+   ================================================== -->
+   <section id="services">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Why you need to join Internet training?<span>.</span></h1>
+
+	         <hr />      	         
+
+	         <p>Internet Training is an online conference about what you need to know to successfully do business in the current economic climate thanks to the possibilities of the Internet and online products!
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row mobile-no-padding">      	
+
+	      <div class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group">
+
+	      	<div class="bgrid">	               
+
+	            <h3>Copywriting</h3>
+
+	            <div class="service-content">	                  
+		            <p>How to write content that helps reach your customers and convince you to buy.
+	         		</p> 
+	         	</div>  
+
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+
+	            <h3>Personal brand strategy</h3>                  
+
+	            <div class="service-content">	                  
+		            <p>How to design and build a personal branding and what fundamental advantages does it bring?
+	         		</p> 
+	            </div>	              
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	              
+
+	            <h3>Projects</h3>
+
+	            <div class="service-content">		                  
+		            <p>How to plan a product so that it gives real and measurable results in the shortest possible time.
+	        			</p> 
+	            </div> 	               
+
+			   </div> <!-- end bgrid -->
+
+
+	      </div> <!-- end service-list -->	      
+
+      </div> <!-- end row -->      
+
+   </section> <!-- end services -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Who Are We<span>.</span></h1>
+
+	         <hr />     	    
+
+	         <p>This is the first time such knowledge is available free of charge, passed by practitioners for implementation immediately. Practitioners with many years of experience developing their companies thanks to the possibilities of online products. Everything available from your computer, without leaving your home.
+	         </p>
+
+	      </div> <!-- end section-head -->
+
+      </div>
+
+      <div class="row mobile-no-padding">       	
+
+      	<div class="process bgrid-half tab-bgrid-whole group">
+
+      		<div class="bgrid">
+
+			      <h3>Results</h3>	
+
+			      <p>We have taught more than 150 students and most of them started a new business.
+			      </p>
+
+		   	</div>
+
+      		<div class="bgrid">
+
+			     	<h3>Competitions</h3>
+
+			     	<p>Our students won the list of learning and applied competitions.
+			   	</p>	
+
+		      </div> 
+
+		    
+
+      	</div> <!-- end process -->      	
+
+     	</div> <!-- end row -->
+
+
+      <div class="row team section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Our Best Students<span>.</span></h1>
+
+	         <hr />	         
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row">
+
+         <div id="team-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half mob-bgrid-whole group">
+
+            <div class="bgrid member">
+
+					<div class="member-pic">
+						<img src="images/team/member01-k.jpg" alt=""/>
+                 	<div class="mask"></div>       	
+               </div>
+               <div class="member-name">
+                  <h3>Marek Kalincki</h3>
+                  <span>founder of GIP Consult</span>
+               </div>
+
+               <p>I am so happy to be a part of a team. The most value I got from the people I met in the community.</p>
+
+            </div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                  <img src="images/team/member03-k.jpg" alt=""/>
+               	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Alex Vida</h3>
+                  <span>Enterpreneur</span>
+               </div>
+
+               <p>I was lost from a last year. The community changed my mindset and help me to forget</p>
+
+            </div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+						<img src="images/team/member04-k.jpg" alt=""/>
+                 	<div class="mask"></div>                          	
+               </div>
+               <div class="member-name">
+                  <h3>Piotr Stokalski</h3>
+                  <span>Designer</span>
+               </div>
+
+               <p>Good things matter first. Knowledge is the main key for success. I have it and will share it with the world. </p>
+     			</div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                 	<img src="images/team/member05-k.jpg" alt=""/>
+                 	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Nancy Nara</h3>
+                  <span>Software developer</span>
+               </div>
+
+               <p>With the help of the learning space my career has boosted so far. At this point I am starting my own project within the company's management. </p>
+
+            </div> <!-- end member -->
+
+         </div> <!-- end team-wrapper -->
+
+      </div> <!-- end row -->
+
+      <div id="call-to-action">	       
+
+		   <div class="row section-ads">
+
+		      <div class="twelve columns">		         		
+
+					<div class="action">
+			         <a href="#contact" >Apply now</a>
+	         	</div>
+
+			   </div>
+
+		   </div> <!-- end section-ads -->		         	         
+
+	   </div> <!-- end call-to-action -->	           
+
+   </section> <!-- end about -->  
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="row content flex-container">
+    
+         <div id="testimonial-slider" class="flexslider">
+
+            <ul class="slides">
+               <li>
+                  <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                  </p>
+
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-1.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Mario Fernandez
+                    		<span class="position">CEO, Good Network LLC.</span>
+                    	</div>
+                  </div>
+             	</li> <!-- end slide -->
+
+               <li>                       
+                  <p>I tell you the truth, it is hard for a rich man to enter the kingdom of heaven. Again I tell you, it is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of heaven.
+			
+                  </p>
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-2.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		John Freedman
+                    		<span>CEO, Globalroot Corp.</span>
+                    	</div>
+                  </div>                        
+               </li> <!-- end slide -->
+
+            </ul> <!-- end slides -->
+
+         </div> <!-- end flexslider -->         
+        
+      </div> <!-- end row -->
+
+   </section> <!-- end testimonials section -->  
+
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Get a part of a learning space<span>.</span></h1>
+
+	         <hr />	        
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row">
+      	
+      	<div id="contact-form" class="six columns tab-whole left">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action=""  >
+      			<fieldset>
+
+                  <div class="group">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+                  </div>
+                  <div>
+	      			   <input name="contactEmail" type="text" id="contactEmail" placeholder="Phone number" value="" required />
+	               </div>
+                
+	               </div>                      
+                  <div>
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div>
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="icon-ok"></i>Your message was sent, thank you!<br />
+      		</div>
+
+         </div>
+
+         <div class="six columns tab-whole right">
+
+
+	         <h3 class="address">Come Visit</h3>
+
+	         <p>
+				Wolska 8a, 20-410 <br>
+				Lublin, Poland
+            </p>
+
+            <h3>Contact Number:</h3>
+			   <p>Phone: +48 81 744-33-14
+			   </p>
+               	
+         </div>     	
+
+      </div> <!-- end row -->     
+
+   </section>  <!-- end contact -->
+
+
+   <!-- Footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">  
+
+      	<div class="twelve columns content group">
+      		
+
+            <hr />
+
+            <div class="info">
+
+            	<div class="footer-logo"></div>
+
+	            <p>Online learnining platform that helps you grow 
+	            </p>	        
+
+	         </div>
+
+      	</div>           
+
+         <ul class="copyright">
+			<li>&copy; Copyright 2020 </li> 
+			<li> <a href="./privacy-policy.html">Privacy Policy</a> & <a href="./terms.html">Terms of Use</a>.</li>
+         </ul>
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
+         </div>
+
+      </div> <!-- end row -->
+
+   </footer> <!-- end footer -->
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.flexslider-min.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/jquery.placeholder.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>  
+   <script src="js/main.js"></script>
 
 </body>
+
 </html>
